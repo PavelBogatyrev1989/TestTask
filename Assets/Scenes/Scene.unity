@@ -364,6 +364,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5395ba6b60b37f34ca8fadfc602ff18b, type: 3}
+      propertyPath: m_TagString
+      value: Vase
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5395ba6b60b37f34ca8fadfc602ff18b, type: 3}
   m_IsPrefabAsset: 0
@@ -748,7 +752,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: e72603dfbd3352f4abc258644a214696, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.66417
+      value: -13.92
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e72603dfbd3352f4abc258644a214696, type: 3}
       propertyPath: m_LocalPosition.y
@@ -756,7 +760,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e72603dfbd3352f4abc258644a214696, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.68
+      value: -13.34
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e72603dfbd3352f4abc258644a214696, type: 3}
       propertyPath: m_LocalRotation.x
@@ -834,8 +838,8 @@ MonoBehaviour:
   - {fileID: 157072069}
   questItemViewPrefab: {fileID: 1650456006431200, guid: 3a1ad13ff89542748b58e902a0280124,
     type: 2}
-  max_X: 0
-  max_Z: 0
+  max_X: 20
+  max_Z: 20
   questItemsListView: {fileID: 972539740}
   player: {fileID: 1505126882}
 --- !u!4 &1367257827
@@ -902,7 +906,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4902502175471650, guid: ea2746054754b134da507f98b6dd53b4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -8.93
       objectReference: {fileID: 0}
     - target: {fileID: 4902502175471650, guid: ea2746054754b134da507f98b6dd53b4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -950,8 +954,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mouseSpeed: 5
-  _maxX_position: 40
-  _maxZ_position: 40
 --- !u!136 &1505126886
 CapsuleCollider:
   m_ObjectHideFlags: 0

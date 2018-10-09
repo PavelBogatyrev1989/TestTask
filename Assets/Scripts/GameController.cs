@@ -47,7 +47,7 @@ public class GameController : MonoBehaviour {
 
 	private void CheckIsLastItem (int currentItem) {
 		if (currentItem == itemsArray.Length) {
-			Invoke ("RestartLvl", 1f);
+			Invoke ("RestartLvl", 2f);
 		}
 	}
 
